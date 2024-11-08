@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% url 'my_home' %}">Home</a>
+<a href="{% url 'my_about' %}">About</a>
+<a href="{% url 'my_contacts' %}">Contact</a>
+<a href="{% url 'my_services' %}">Services</a>
+<a href="{% url 'my_blog' %}">Blog</a>
+<a href="{% url 'my_careers' %}">Careers</a>
+<h2>Services we Offer</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus dolores error ex exercitationem facilis fuga harum iure molestias, nobis, non odio officiis omnis pariatur quis quisquam, repudiandae temporibus totam!</p>
+<img src="{% static 'images/vecteezy_illuminated-cityscape-reflects-on-water-under-suspension_25486041.jpg' %}" alt="">
+</body>
+</html>
